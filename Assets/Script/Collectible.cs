@@ -6,6 +6,6 @@ public class Collectible : MonoBehaviour
 {
     private void OnMouseDown()
     {
-        Debug.Log("mouse down !!!");
+        // Debug.Log("mouse down !!!");
     }
 }

@@ -7,11 +7,11 @@ public class GatheringState : BaseState
     public override void OnEnter()
     {
         Debug.Log("GatheringState");
-        animator.CrossFade(Gathering, crossFadeDuration);
+        animator.CrossFade(Gathering, crossFadeDuration); // A(이동 또는 IDLE) -> B(채집)
     }
 
     public override void OnExit()
     {
-
+        player.OnFinishCollect();
     }
 }

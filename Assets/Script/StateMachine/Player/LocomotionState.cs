@@ -10,6 +10,11 @@ public class LocomotionState : BaseState
         animator.CrossFade(LocomotionHash, crossFadeDuration);
     }
 
+    public override void Update()
+    {
+        player.HandleMovement();
+    }
+
     public override void FixedUpdate()
     {
     }

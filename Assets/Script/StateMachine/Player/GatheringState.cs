@@ -12,6 +12,6 @@ public class GatheringState : BaseState
 
     public override void OnExit()
     {
-        player.OnFinishCollect();
+        // player.OnFinishCollect();
     }
 }

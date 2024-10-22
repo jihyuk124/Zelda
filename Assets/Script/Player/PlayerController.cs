@@ -34,7 +34,7 @@ public class PlayerController : MonoBehaviour
     private Vector3 moveInput = Vector3.zero;
     private const float ZeroF = 0f;
     private List<InteractableObject> interactableObjectList = new List<InteractableObject>();
-    private InteractableObject currentInteractionObject = = null;
+    private InteractableObject currentInteractionObject = null;
 
     // private List<>
 
